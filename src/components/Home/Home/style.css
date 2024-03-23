@@ -1,0 +1,32 @@
+.home {
+    background-image: url(../../../Assets/Bg-Home.png);
+    height: 100%;
+    width: 100%;
+    color: white;
+}
+
+.homeFont {
+    font-size: 1.7rem;
+}
+
+.homeImage {
+    margin-top: 10rem;
+}
+
+@media (max-width: 768px) {
+    .home {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .home img {
+        height: 20rem;
+        width: 20rem;
+        margin: auto;
+        padding-top: 1rem;
+    }
+
+    .homeText {
+        font-size: 10px;
+    }
+}

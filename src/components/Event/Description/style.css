@@ -1,0 +1,31 @@
+.left-side {
+    display: flex;
+    flex-direction: column;
+    margin-left: 95px;
+    margin-top: 2rem;
+}
+
+.c2-head {
+    margin-top: 35px;
+    margin-bottom: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.desc {
+    line-height: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.date {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+@media (max-width: 768px) {
+    .left-side {
+        margin-left: 2rem;
+    }
+
+}

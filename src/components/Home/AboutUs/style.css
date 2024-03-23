@@ -1,0 +1,93 @@
+.about_us {
+    background-image: url(../../../Assets/Bg-AboutUs.png);
+    height: 100%;
+    background-color: black;
+    /* background-size: cover; */
+    /* background-position: center; */
+    padding: 2rem;
+    overflow-x: hidden;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+.header_aboutUs {
+    display: flex;
+    align-items: center;
+    height: 15%;
+}
+
+.about_us h1 {
+    color: white;
+    margin-left: 1.5rem;
+    font-size: 48px;
+    line-height: 72px;
+}
+
+.body_aboutUs {
+    display: flex;
+    justify-content: space-around;
+    height: 63%;
+}
+
+.footer_aboutUs {
+    display: flex;
+    justify-content: space-around;
+    height: 22%;
+    margin-top: 2rem;
+}
+
+.body_aboutUs p {
+    padding: 1rem;
+    color: white;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: bolder;
+}
+
+img[src="https://i.postimg.cc/jSZQj1y9/Image-4-1.png"] {
+    width: 439px;
+    height: 417px;
+}
+
+img[src="https://i.postimg.cc/2SWpn4SC/1-CS-1.png"] {
+    width: 220px;
+    height: 93px;
+}
+
+img[src="https://i.postimg.cc/sxZFKS4P/2-PES-1.png"] {
+    width: 206px;
+    height: 128px;
+}
+
+img[src="https://i.postimg.cc/nLZDJGsz/3-RAS-1.png"] {
+    width: 215px;
+    height: 111px;
+}
+
+img[src="https://i.postimg.cc/HnfrPwDT/4-WIE-1.png"] {
+    width: 206px;
+    height: 139.35px;
+}
+
+@media (max-width: 768px) {
+    .body_aboutUs {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .footer_aboutUs {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .footer_aboutUs img {
+        width: 50%;
+        box-sizing: border-box;
+
+    }
+
+    img[src="https://i.postimg.cc/jSZQj1y9/Image-4-1.png"] {
+        width: 20rem;
+        height: 20rem;
+    }
+}

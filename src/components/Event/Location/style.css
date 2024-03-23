@@ -1,0 +1,39 @@
+.right-side {
+    display: flex;
+    flex-direction: column;
+    margin-right: 95px;
+    margin-left: 95px;
+    /* margin-top: 3rem; */
+}
+
+.location {
+    margin-top: 35px;
+    margin-bottom: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.map {
+    margin-bottom: 30px;
+    width: "550";
+    height: "300";
+}
+
+.cllg-name {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+}
+
+.address {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+@media (max-width: 768px) {
+    iframe {
+        width: "350";
+    }
+
+    .right-side {
+        margin-left: 2rem;
+    }
+}

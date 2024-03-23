@@ -1,0 +1,36 @@
+.Main {
+    background-image: url(../../../Assets/Bg-Main.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-color: #6B6060;
+    background-blend-mode: multiply;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+
+.logo_text {
+    font-size: 22px;
+}
+
+.Main_text {
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.IEEE_logo {
+    height: 100px;
+}
+
+._content {
+    margin: 5em 0 0 3em;
+    text-align: left;
+    width: 400px;
+}

@@ -1,0 +1,13 @@
+.container2 {
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    overflow-x: hidden;
+}
+
+@media (max-width: 768px) {
+    .container2 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
