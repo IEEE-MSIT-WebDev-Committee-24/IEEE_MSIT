@@ -4,7 +4,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import {useNavigate} from 'react-router-dom';
 import './style1.css';
-import Ieee_img from '../../../Assets/ieeeLogo-blue.svg'
+import Ieee_img from '../../../Assets/IEEE_white 2.png'
 import { useState } from 'react';
 
 
