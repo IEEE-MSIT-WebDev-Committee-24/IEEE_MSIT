@@ -55,6 +55,7 @@ function HeaderComponent() {
                 </Navbar.Brand>
                 <Nav.Link onClick={() => { navigate("/") }} href="#event">EVENTS</Nav.Link>
                 <Nav.Link href="/execom">EXECUTIVE BOARD</Nav.Link>
+                {/* <Nav.Link href="/admin/login">LOGIN</Nav.Link> */}
              </Nav>
             </Container>
         </Navbar.Collapse>

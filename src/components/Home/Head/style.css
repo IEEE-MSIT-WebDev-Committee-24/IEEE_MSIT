@@ -1,6 +1,7 @@
 .Main {
     background-image: url(../../../Assets/Bg-Main.png);
     height: 100vh;
+    width:100vw;
     background-size: cover;
     background-position: center;
     background-color: #6B6060;
@@ -33,4 +34,26 @@
     margin: 5em 0 0 3em;
     text-align: left;
     width: 400px;
+}
+
+/* login button */
+
+.login_button_container{
+    position: absolute; 
+    right:2rem;;
+    top:7rem;
+}
+
+.login_button{
+    border:2px solid rgb(32, 187, 32);
+    padding:0.5rem 1rem ;
+    border-radius: 0.5rem;
+    background-color: #4b5e71;
+    color: white;
+    transition: all 0.3s ease-in;
+}
+
+.login_button:hover{
+    background-color: rgb(63, 238, 63);
+    color:black;
 }
