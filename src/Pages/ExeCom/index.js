@@ -18,7 +18,7 @@ const RenderExecomSection = ({ list, details }) => {
 
     return (
         <div className='execom_card__main'>
-            <h2 style={{ "color": heading_color, "borderBottom": `2px solid ${heading_color}` }} className="app__execom-header">{section_heading}</h2>
+            <h2 style={{ "color": heading_color, "borderBottom": `2px solid #FFFFFF` }} className="app__execom-header">{section_heading}</h2>
             <div className='execom_card__listContainer'>
                 {(minRank <= maxRank) && (
                     <div className="execom_card__wrapper">
@@ -163,12 +163,12 @@ const ExeCom = () => {
             {/* <Menubar backgroundClr="#009CA6" /> */}
             <div className="app__execom-mainContainer">
                 <div className="app__execom-headerContainer">
-                    <h1 className="app__execom-header">Meet the Execom 2023</h1>
+                    <h1 className="app__execom-header font-extrabold">Meet the Execom 2023</h1>
                     <div className="hr-header"></div>
                 </div>
                 <div className='app__execom-execomListContainer'>
                     <div className='execom_card__main'>
-                        <h2 style={{ "color": "#009CA6", "borderBottom": "2px solid #009CA6" }} className="app__execom-header">Advisory Board</h2>
+                        <h2 style={{ "color": "#009CA6", "borderBottom": "2px solid #FFFFFF" }} className="app__execom-header">Advisory Board</h2>
                         <div className='execom_card__listContainer'>
                             <div className="execom_card__wrapper">
                                 <div className="execom_card advisoryBoard">
