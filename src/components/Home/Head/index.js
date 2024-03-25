@@ -6,11 +6,10 @@ function MainComponent() {
         <div className="Main">
             <div>
                 <h2 className="logo_text">Advancing Technology for Humanity</h2>
-                <img src={IEEE_logo} className="IEEE_logo"/>
+                <img src={IEEE_logo} className="IEEE_logo" />
             </div>
             <div className="main_content">
-                <h2 className="main_text">The Professional  home for the Engineering and Technology world wide </h2>
-                
+                <h2 className="main_text">The Professional home for the Engineering and Technology world wide</h2>
             </div>
         </div>
     );
