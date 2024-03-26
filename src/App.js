@@ -9,7 +9,7 @@ import PostEvent from "./Pages/Admin/PostEvent";
 import Oppurtunities from "./Pages/Oppurtunities";
 import AboutPage from "./Pages/About";
 import Tech from "./Pages/Technologies";
-import MembershipPage from "./components/Home/Membership";
+import MembershipPage from "./Pages/Membership";
 
 function App() {
   return (

@@ -3,7 +3,7 @@ import PAGE_INFO from "../../../Constants/membershipContent";
 import MembershipSection from "./MembershipSection";
 import Background from "../../../Assets/Bg-Main.png"
 
-const MembershipPage = () => {
+const MembershipComponent = () => {
 
     return (
         <div className="flex justify-center w-full pb-4"
@@ -43,4 +43,4 @@ const MembershipPage = () => {
     )
 }
 
-export default MembershipPage;
+export default MembershipComponent;
