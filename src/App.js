@@ -8,6 +8,7 @@ import AdminLogin from "./Pages/Admin/Login";
 import PostEvent from "./Pages/Admin/PostEvent";
 import Oppurtunities from "./Pages/Oppurtunities";
 import AboutPage from "./Pages/About";
+import Tech from "./Pages/Technologies";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/events/:id/*" element={<EventPage />} />
         <Route path="/execom" element={<ExeCom />} />
         <Route path="/oppurtunities" element={<Oppurtunities />} />
+        <Route path="/technologies" element={<Tech />} />
         {/* <Route path="/admin/login" element={<AdminLogin />} />
         <Route path="/admin/postEvent" element={PostEvent} /> */}
       </Routes>
