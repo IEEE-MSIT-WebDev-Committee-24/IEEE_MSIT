@@ -4,8 +4,8 @@ import './style.css';
 function AboutUsComponent() {
     return (
         <div className="about_us" id="about">
-            <div className="header_aboutUs text-dark-emphasis">
-                <h1>About Us</h1>
+            <div className="header_aboutUs text-dark-emphasis ">
+                <h1>About IEEE</h1>
             </div>
             <div className="body_aboutUs">
                 <img src="https://i.postimg.cc/jSZQj1y9/Image-4-1.png" alt="image not found" />

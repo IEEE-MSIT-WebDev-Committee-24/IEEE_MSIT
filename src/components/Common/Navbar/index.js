@@ -49,7 +49,7 @@ function HeaderComponent() {
                             <NavDropdown.Item href="https://spectrum.ieee.org/">IEEE Spectrum</NavDropdown.Item>
                         </NavDropdown>
                 <Nav.Link href="/">HOME</Nav.Link>
-                <Nav.Link onClick={() => { navigate("/") }} href="#about">ABOUT US</Nav.Link>
+                <Nav.Link onClick={() => { navigate("/about") }}>ABOUT IEEE</Nav.Link>
                 <Navbar.Brand className="d-none d-lg-block" href="/"> 
                     <img src={Ieee_img} alt="IEEE-MSIT Logo" /> 
                 </Navbar.Brand>
@@ -67,3 +67,7 @@ function HeaderComponent() {
 }
 
 export default HeaderComponent;
+
+
+
+{/* <Nav.Link onClick={() => { navigate("/") }} href="#about">ABOUT IEEE</Nav.Link> */}

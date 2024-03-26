@@ -7,6 +7,7 @@ import Footer from "./components/Common/Footer";
 import AdminLogin from "./Pages/Admin/Login";
 import PostEvent from "./Pages/Admin/PostEvent";
 import Oppurtunities from "./Pages/Oppurtunities";
+import AboutPage from "./Pages/About";
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/home" element={<HomePage />} />
+        <Route path="/about" element={<AboutPage/>} />
         <Route path="/events/:id/*" element={<EventPage />} />
         <Route path="/execom" element={<ExeCom />} />
         <Route path="/oppurtunities" element={<Oppurtunities />} />
