@@ -9,6 +9,7 @@ import PostEvent from "./Pages/Admin/PostEvent";
 import Oppurtunities from "./Pages/Oppurtunities";
 import AboutPage from "./Pages/About";
 import Tech from "./Pages/Technologies";
+import MembershipPage from "./components/Home/Membership";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/execom" element={<ExeCom />} />
         <Route path="/oppurtunities" element={<Oppurtunities />} />
         <Route path="/technologies" element={<Tech />} />
+        <Route path="/membership" element={<MembershipPage />} />
         {/* <Route path="/admin/login" element={<AdminLogin />} />
         <Route path="/admin/postEvent" element={PostEvent} /> */}
       </Routes>
