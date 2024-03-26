@@ -5,9 +5,10 @@
 }
 
 #container{
-    height: 79.2vh;
+    height: 100%;
     width: 100%;
     background-color: black;
+    padding: 2vw;
 }
 
 .details{
@@ -17,4 +18,32 @@
     flex-direction: column;
     justify-content: space-around;
     color: white;
+}
+
+.heading{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1vw 0;
+}
+
+.heading h3{
+    font-size: 2.5vw;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+}
+
+p a{
+    text-decoration: none;
+}
+
+#content{
+    margin-bottom: 1vw;
+    opacity: 1;
+}
+
+li b{
+    font-size: 1.25vw;
+    color: whitesmoke;
 }
