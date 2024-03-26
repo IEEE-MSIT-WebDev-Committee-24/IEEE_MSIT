@@ -14,7 +14,7 @@ function MainComponent() {
             </div>
 
             <Link to="/membership" className="my-2">
-                <button className='px-4 py-3 border-2 border-[#223140] bg-transparent rounded-xl font-bold text-white'>
+                <button className='px-5 py-3 border-2 border-[#223140] bg-transparent rounded-xl font-bold text-white'>
                     Join IEEE
                 </button>
             </Link>
