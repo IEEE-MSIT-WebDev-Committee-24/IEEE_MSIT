@@ -9,7 +9,6 @@ const Oppurtunities = () =>{
                     <h3>Oppurtunities</h3>
                 </div>
                 <p>
-                    Main heading - Opportunities
                     IEEE is a large organization. Many opportunities for students exist that are not directly sponsored by Student Activities. To ensures that the brightest and most capable young minds have the resources they need to pursue a   technologically-oriented education, we have collected information about grants, scholarships and other   opportunities for students for you to search here.
                     <br />
                     <a href="https://students.ieee.org/student-opportunities/">Apply Here</a>
