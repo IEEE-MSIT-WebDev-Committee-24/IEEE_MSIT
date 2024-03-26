@@ -5,20 +5,59 @@ const Oppurtunities = () =>{
     <>
         <div id="container">
             <div className="details">
-                <h3>Scholarship</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, harum a! Delectus qui, tempore beatae doloribus repudiandae dolor mollitia culpa, reiciendis aut, nostrum dolores atque quia. Quo, nisi! Recusandae, nihil.
-                Quis dolores aspernatur error tempore, dolor illo voluptatem sapiente assumenda doloremque, quod corrupti earum unde? Quisquam reprehenderit obcaecati quam doloribus amet aut dolores nostrum dolorem, reiciendis officiis, tenetur ut harum.
-                Exercitationem totam odio iure facilis! Animi ratione odit ea id. Magni harum modi veniam debitis, possimus labore id ex dolore incidunt ipsa, atque laborum exercitationem nihil doloremque et laboriosam voluptatem?</p>
+                <div className="heading">
+                    <h3>Oppurtunities</h3>
+                </div>
+                <p>
+                    IEEE is a large organization. Many opportunities for students exist that are not directly sponsored by Student Activities. To ensures that the brightest and most capable young minds have the resources they need to pursue a   technologically-oriented education, we have collected information about grants, scholarships and other   opportunities for students for you to search here.
+                    <br />
+                    <a href="https://students.ieee.org/student-opportunities/">Apply Here</a>
+                </p>
             </div>
             <div className="details">
-                <h3>Funding</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem sapiente voluptatem, culpa blanditiis distinctio cumque iusto adipisci non commodi aliquam iure, harum asperiores numquam. Animi commodi eveniet necessitatibus. Autem, hic.
-                Atque rem voluptate aliquam. Nesciunt libero ipsa tempora enim, exercitationem impedit. Adipisci repudiandae deleniti cumque, ab nam, fuga dignissimos non sapiente nisi quo alias explicabo pariatur consectetur atque facere itaque?</p>
+                <div className="heading">
+                    <h3>Contests for Students</h3>
+                </div>
+                <p>
+                    The IEEE offers many opportunities for students to win contests for outstanding performance in a variety of areas. Students, here you will be able to search for opportunities to receive recognition and prizes for your innovative thinking and hard work.
+                    Sponsors, here you can have the opportunity to recognize some of the best and brightest young engineering minds while taking the opportunity to reinforce your organization’s dedication to the support of the next generation of IEEE leaders.
+                    <br />
+                    <a href="https://students.ieee.org/student-opportunities/contests-for-students/">Apply Here</a>
+                </p>
             </div>
             <div className="details">
-                <h3>Grants</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non recusandae excepturi, officia voluptas cupiditate doloremque reprehenderit aut fugiat maxime sint sequi aspernatur repudiandae soluta optio repellendus sapiente error. Ad, cumque?
-                Ad repudiandae maiores voluptates impedit aliquam iure aperiam quam ipsa omnis maxime. Distinctio et fugiat perferendis molestiae illo debitis aliquid id voluptatum vel, tempore laborum quibusdam ea, itaque nesciunt. Explicabo?</p>
+                <div className="heading">
+                    <h3>SAC Awards Programs</h3>
+                </div>
+                <p>
+                    <div id="content">
+                        Student branches are crucial to the growth and development of IEEE Student members. Student branches create a local network of students and give students the opportunity to meet and learn from fellow students, as well as faculty members and professionals in the field. 
+                        Student branches offer numerous educational, technical, and professional advantages to IEEE Student members through special projects, activities, meetings, tours, and field trips.
+                        However, these activities and advantages aren’t done without the effort, labor, and diligence of volunteers. IEEE has created several Student Branch Awards to recognize and reward the efforts of these tireless individuals and teams.
+                    </div>
+                    <ol>
+                        <li>
+                            <b>1. Larry K. Wilson Regional Student Activities Award</b>
+                            <p>The purpose of this award is to recognize, annually, in each Region of the IEEE, the Student member most responsible for an extraordinary accomplishment associated with Student Activities.</p>
+                        </li>
+                        <li>
+                            <b>2. IEEE Regional Exemplary Student Branch Award</b>
+                            <p>The purpose of this award is to provide public recognition of exemplary IEEE Student Branch operations. Awards will be presented to those Student Branches that are found to be operated in a manner consistent with the goals of IEEE.
+                            </p>
+                        </li>
+                        <li>
+                            <b>3.The Darrel Chong Student Activity Award</b>
+                            <p>The purpose of this recognition system serves to change the mindset of our student groups, from being number-driven to becoming value-driven and to acknowledge exemplary student activities around the world. The goal is to improve the quality of activities and to foster knowledge sharing among students.                              
+                            </p>
+                        </li>
+                        <li>
+                            <b>4.IEEE Outstanding Branch Counselor and Branch Chapter Advisor Award</b>
+                            <p>
+                            Aware of the unusual and dedicated efforts of Student Branch Counselors and Branch Chapter Advisors, the Regional and Technical Activities Boards sponsor a cash award to each of the approximately 20 outstanding Counselors and Advisors around the world.
+                            </p>
+                        </li>
+                    </ol>
+                </p>
             </div>
         </div>
     </>
