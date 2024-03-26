@@ -19,8 +19,8 @@ function App() {
         <Route path="/events/:id/*" element={<EventPage />} />
         <Route path="/execom" element={<ExeCom />} />
         <Route path="/oppurtunities" element={<Oppurtunities />} />
-        {/* <Route path="/admin/login" element={<AdminLogin />} />
-        <Route path="/admin/postEvent" element={PostEvent} /> */}
+        <Route path="/admin/login" element={<AdminLogin />} />
+       {/*  <Route path="/admin/postEvent" element={PostEvent} /> */}
       </Routes>
       <Footer />
     </BrowserRouter>
