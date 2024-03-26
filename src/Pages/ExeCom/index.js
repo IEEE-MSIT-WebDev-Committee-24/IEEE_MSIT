@@ -163,12 +163,14 @@ const ExeCom = () => {
             {/* <Menubar backgroundClr="#009CA6" /> */}
             <div className="app__execom-mainContainer">
                 <div className="app__execom-headerContainer">
-                    <h1 className="app__execom-header">Meet the Execom 2023</h1>
-                    <div className="hr-header"></div>
+                <h1 className="font-extrabold text-white bg-slate-800 rounded-lg text-center p-5">
+      Meet the Execom 2023
+    </h1>
+                    <div className="hr-header"></div> 
                 </div>
                 <div className='app__execom-execomListContainer'>
                     <div className='execom_card__main'>
-                        <h2 style={{ "color": "#009CA6", "borderBottom": "2px solid #009CA6" }} className="app__execom-header">Advisory Board</h2>
+                        <h2 style={{ "color": "#009CA6", "borderBottom": "2px solid #FFFFFF", fontSize:"2.3rem" }} className="app__execom-header">Advisory Board</h2>
                         <div className='execom_card__listContainer'>
                             <div className="execom_card__wrapper">
                                 <div className="execom_card advisoryBoard">
