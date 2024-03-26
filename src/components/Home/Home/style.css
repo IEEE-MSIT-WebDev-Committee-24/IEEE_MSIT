@@ -1,5 +1,10 @@
 .home {
-    background-image: url(../../../Assets/Bg-Home.png);
+    /* background-image: url(../../../Assets/Bg-Home.png);
+     */
+    background-image: url(../../../Assets/eventBack.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
     height: 100%;
     width: 100%;
     color: white;
