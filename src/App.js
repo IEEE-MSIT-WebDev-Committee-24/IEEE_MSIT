@@ -11,6 +11,7 @@ import AboutPage from "./Pages/About";
 import Newsletter from "./Pages/Newsletter";
 import Tech from "./Pages/Technologies";
 import MembershipPage from "./Pages/Membership";
+import NotFoundPage from "./Pages/NotFound";
 
 function App() {
   return (
@@ -27,6 +28,8 @@ function App() {
         <Route path="/membership" element={<MembershipPage />} />
         {/* <Route path="/admin/login" element={<AdminLogin />} />
         <Route path="/admin/postEvent" element={PostEvent} /> */}
+
+        <Route path="*" element={<NotFoundPage />} />
       </Routes>
       <Footer />
     </BrowserRouter>
