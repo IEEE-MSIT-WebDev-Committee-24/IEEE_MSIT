@@ -1,4 +1,4 @@
-import MembershipComponent from "../../components/Home/Membership/index";
+import MembershipComponent from "../../components/Home/Membership/";
 
 const MembershipPage = () => {
     return (

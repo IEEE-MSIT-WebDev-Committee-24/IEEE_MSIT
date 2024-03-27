@@ -5,7 +5,9 @@ import Profession from "../Assets/profession.png";
 import AddOns from "../Assets/addOns.png";
 import Membership from "../Assets/membership.png";
 
-export default [
+const JOIN_IEEE_HREF = "https://www.ieee.org/membership/join/index.html?utm_source=button_text&utm_medium=lp-membership&utm_campaign=join";
+
+const CARD_INFO = [
     {
         id: 1,
         title: "Core Benefits",
@@ -43,3 +45,5 @@ export default [
         description: "Explore IEEE Society, Standards, and Women in Engineering memberships for expanded technical knowledge and networks."
     }
 ];
+
+export { CARD_INFO, JOIN_IEEE_HREF };

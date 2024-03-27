@@ -1,5 +1,5 @@
 import React from "react";
-import PAGE_INFO from "../../../Constants/membershipContent";
+import { CARD_INFO, JOIN_IEEE_HREF } from "../../../Constants/membershipContent";
 import MembershipSection from "./MembershipSection";
 import Background from "../../../Assets/Bg-Main.png"
 
@@ -23,13 +23,14 @@ const MembershipComponent = () => {
                     <div className="text-center font-extralight text-2xl md:text-3xl lg:text-4xl my-2">
                         Welcome to the community of technology
                     </div>
-                    <a href="#" className="rounded-full shadow-2xl py-2 px-5 bg-[#2c4a90] no-underline text-white cursor-pointer join-button">
+                    <a href={JOIN_IEEE_HREF}
+                        className="rounded-full shadow-2xl py-2 px-5 bg-[#2c4a90] no-underline text-white cursor-pointer join-button">
                         JOIN IEEE NOW
                     </a>
                 </div>
 
                 <div className="flex flex-wrap gap-4 justify-center">
-                    {PAGE_INFO.map((element) => (
+                    {CARD_INFO.map((element) => (
                         <MembershipSection
                             title={element.title}
                             description={element.description}
