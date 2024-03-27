@@ -30,7 +30,7 @@ const FooterComponent = () => {
               <ListGroup.Item
                 className="p-0 px-3 border-0  bg-transparent text text-white"
                 action
-                href="/home"
+                href="/membership"
               >
                 Join IEEE
               </ListGroup.Item>
