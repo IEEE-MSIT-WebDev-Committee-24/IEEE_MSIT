@@ -10,6 +10,7 @@ import Oppurtunities from "./Pages/Oppurtunities";
 import AboutPage from "./Pages/About";
 import Newsletter from "./Pages/Newsletter";
 import Tech from "./Pages/Technologies";
+import MembershipPage from "./Pages/Membership";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Route path="/oppurtunities" element={<Oppurtunities />} />
         <Route path="/newsletter" element={<Newsletter />} />
         <Route path="/technologies" element={<Tech />} />
+        <Route path="/membership" element={<MembershipPage />} />
         {/* <Route path="/admin/login" element={<AdminLogin />} />
         <Route path="/admin/postEvent" element={PostEvent} /> */}
       </Routes>
