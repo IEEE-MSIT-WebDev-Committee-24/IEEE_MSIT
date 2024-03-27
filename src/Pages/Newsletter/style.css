@@ -1,0 +1,38 @@
+.heading{
+    color: darkslategray;
+    font: bold 50px sans-serif;
+    text-align: center;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+}
+
+.page{
+    margin-bottom: 5vw;
+}
+
+.newsletters{
+    display: flex;
+    flex-direction: column;
+    gap: 5vw;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 5vw;
+
+}
+
+.flipbook-container {
+    margin: 0 auto;
+  }
+  
+.intro{
+    color: whitesmoke;
+    background-color: black;
+    font: bold 20px sans-serif;
+    text-align: center;
+    padding: 12vw 0
+}
+
+.flipbook-page {
+    border: 4px solid yellow; 
+    box-sizing: border-box; 
+  }

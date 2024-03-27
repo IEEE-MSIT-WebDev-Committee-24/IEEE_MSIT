@@ -56,18 +56,26 @@ const FooterComponent = () => {
               Follow Us
             </h4>
             <Row className="justify-content-md-center align-items-md-center">
-              <Row className="w-75 ">
+              <Row className="w-75">
                 <Col>
-                  <Instagram color="white" size="1.5rem" />
+                  <a href="https://www.instagram.com/ieeemsit/">
+                    <Instagram color="white" size="1.5rem" />
+                  </a>
                 </Col>
                 <Col>
-                  <Facebook color="white" size="1.5rem" />
+                  <a href="https://m.facebook.com/ieeemsit">
+                    <Facebook color="white" size="1.5rem" />
+                  </a>
                 </Col>
                 <Col>
-                  <Linkedin color="white" size="1.5rem" />
+                  <a href="https://www.linkedin.com/company/ieeemsit/">
+                    <Linkedin color="white" size="1.5rem" />
+                  </a>
                 </Col>
                 <Col>
-                  <Twitter color="white" size="1.5rem" />
+                  <a href="https://twitter.com/ieeemsit">
+                    <Twitter color="white" size="1.5rem" />
+                  </a>
                 </Col>
               </Row>
             </Row>
