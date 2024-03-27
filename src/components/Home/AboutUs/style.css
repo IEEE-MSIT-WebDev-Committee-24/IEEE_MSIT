@@ -1,5 +1,6 @@
 .about_us {
     background-image: url(../../../Assets/Bg-AboutUs.png);
+
     width: 100%;
     height: 120vh;
     background-color: black;
@@ -8,8 +9,8 @@
     padding: 5rem;
     background-repeat: no-repeat;
     object-fit: cover;
-    
-    
+
+
 }
 
 .header_aboutUs {
@@ -27,9 +28,10 @@
     margin: auto;
     margin-bottom: 50px;
 }
-.about_us h1:hover{
-    color:#019EC3;
-    
+
+.about_us h1:hover {
+    color: #019EC3;
+
 }
 
 
