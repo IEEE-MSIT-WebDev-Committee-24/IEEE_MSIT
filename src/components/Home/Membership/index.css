@@ -9,7 +9,7 @@
 
 .membership-card:hover {
     transform: scale(1.05);
-    box-shadow: 0 0 5px cyan;
+    box-shadow: 0 0 5px skyblue;
 }
 
 .join-button {
@@ -17,6 +17,6 @@
 }
 
 .join-button:hover {
-    box-shadow: 0 0 5px cyan;
+    box-shadow: 0 0 5px skyblue;
     transform: scale(1.05);
 }

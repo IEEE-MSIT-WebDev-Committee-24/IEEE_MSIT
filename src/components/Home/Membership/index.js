@@ -6,7 +6,7 @@ import Background from "../../../Assets/Bg-Main.png"
 const MembershipComponent = () => {
 
     return (
-        <div className="flex justify-center w-full pb-4"
+        <div className="flex justify-center w-full pb-10 md:pb-24"
             style={{
                 backgroundImage: `url(${Background})`,
                 backgroundSize: `cover`,
@@ -23,7 +23,7 @@ const MembershipComponent = () => {
                     <div className="text-center font-extralight text-2xl md:text-3xl lg:text-4xl my-2">
                         Welcome to the community of technology
                     </div>
-                    <a className="rounded-full shadow-2xl py-2 px-5 bg-[#2c4a90] no-underline text-white cursor-pointer join-button">
+                    <a href="#" className="rounded-full shadow-2xl py-2 px-5 bg-[#2c4a90] no-underline text-white cursor-pointer join-button">
                         JOIN IEEE NOW
                     </a>
                 </div>
