@@ -29,10 +29,18 @@
     background-color: black;
     font: bold 20px sans-serif;
     text-align: center;
-    padding: 12vw 0
+    padding: 8vw 0;
+    display: flex;
 }
 
 .flipbook-page {
     border: 4px solid yellow; 
     box-sizing: border-box; 
   }
+
+.logo{
+
+    background-color: black;
+    width: fit-content;
+    margin: 0 auto;
+}
