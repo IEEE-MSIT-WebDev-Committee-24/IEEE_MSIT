@@ -57,7 +57,6 @@ function HeaderComponent() {
                 <Nav.Link href="/newsletter">NEWSLETTERS</Nav.Link>
                 <Nav.Link href="/execom">EXECUTIVE BOARD</Nav.Link>
                 <Nav.Link href="/oppurtunities">OPPURTUNITIES</Nav.Link>
-                <Nav.Link href="/technologies">TECHNOLOGIES</Nav.Link>
              </Nav>
             </Container>
         </Navbar.Collapse>
