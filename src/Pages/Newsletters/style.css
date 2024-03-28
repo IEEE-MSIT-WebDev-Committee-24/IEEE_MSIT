@@ -1,13 +1,17 @@
 .heading{
-    color: darkslategray;
+    color: white;
     font: bold 50px sans-serif;
     text-align: center;
-    margin-top: 4vh;
-    margin-bottom: 4vh;
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+    margin: 0;
 }
 
 .page{
-    margin-bottom: 5vw;
+    padding-bottom: 5vw;
+    background-color: #182b3a;
+    background-image: linear-gradient(90deg, #112331 0%, #268bc1 50%, #0d2231 100%);
+
 }
 
 .newsletters{
@@ -25,9 +29,9 @@
   }
   
 .intro{
-    color: whitesmoke;
+    color: rgb(168, 206, 249);
     background-color: black;
-    font: bold 20px sans-serif;
+    font: bold 24px poppins;
     text-align: center;
     padding: 8vw 0;
     display: flex;

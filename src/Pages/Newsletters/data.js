@@ -29,6 +29,18 @@ import N4Cover from './assets/Newsletter4/cover.jpeg';
 
 const newslettersData = [
     {
+        "heading":"RoboTiding",
+        "pages":[
+            N5Page1,
+            N5Page2,
+            N5Page3,
+            N5Page4,
+            N5Page5,
+            N5Page6
+        ]
+    },
+    {
+        "heading":"Apple Vision Pro",
         "pages":[
             N1Cover,
             N1Page1,
@@ -38,6 +50,7 @@ const newslettersData = [
         ]
     },
     {
+        "heading":"Datafication",
         "pages":[
             N2Cover,
             N2Page1,
@@ -48,6 +61,7 @@ const newslettersData = [
         ]
     },
     {
+        "heading":"Quantum Computing",
         "pages":[
             N3Cover,
             N3Page1,
@@ -58,6 +72,7 @@ const newslettersData = [
         ]
     },
     {
+        "heading":"CodeHers!",
         "pages":[
             N4Cover,
             N4Page1,
@@ -65,17 +80,7 @@ const newslettersData = [
             N4Page3,
             N4Page4
         ]
-    },
-    {
-        "pages":[
-            N5Page1,
-            N5Page2,
-            N5Page3,
-            N5Page4,
-            N5Page5,
-            N5Page6
-        ]
-    }
+    }    
 ]
 
 export default newslettersData;
