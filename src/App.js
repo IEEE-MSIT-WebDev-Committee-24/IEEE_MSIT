@@ -18,10 +18,10 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/about" element={<AboutPage/>} />
+        <Route path="/about" element={<AboutPage />} />
         <Route path="/events/:id/*" element={<EventPage />} />
         <Route path="/execom" element={<ExeCom />} />
-        <Route path="/oppurtunities" element={<Oppurtunities />} />
+        <Route path="/opportunities" element={<Oppurtunities />} />
         <Route path="/newsletter" element={<Newsletter />} />
         <Route path="/membership" element={<MembershipPage />} />
         {/* <Route path="/admin/login" element={<AdminLogin />} />
