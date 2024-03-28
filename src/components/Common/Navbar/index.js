@@ -36,8 +36,9 @@ function HeaderComponent() {
     <Container>
         <Navbar.Toggle aria-controls="responsive-navbar-nav"  onClick={handleNavToggle} />
         <Navbar.Collapse id="responsive-navbar-nav" expanded={expanded}>
+            <Container>
             <Nav className="me-auto">
-            <NavDropdown   title="IEEE-org"
+                    <NavDropdown   title="IEEE-org"
                             id="collasible-nav-dropdown"
                             show={showDropdown}
                             onMouseEnter={handleMouseEnter}
@@ -49,12 +50,15 @@ function HeaderComponent() {
                         </NavDropdown>
                 <Nav.Link href="/">HOME</Nav.Link>
                 <Nav.Link onClick={() => { navigate("/about") }}>ABOUT IEEE</Nav.Link>
-                <Navbar.Brand href="/">
-            <img src={Ieee_img} alt="IEEE-MSIT Logo" /> 
-        </Navbar.Brand>
                 <Nav.Link onClick={() => { navigate("/") }} href="#event">EVENTS</Nav.Link>
+                <Navbar.Brand className="d-none d-lg-block" href="/"> 
+                    <img src={Ieee_img} alt="IEEE-MSIT Logo" /> 
+                </Navbar.Brand>
+                <Nav.Link href="/newsletter">NEWSLETTERS</Nav.Link>
                 <Nav.Link href="/execom">EXECUTIVE BOARD</Nav.Link>
-            </Nav>
+                <Nav.Link href="/oppurtunities">OPPORTUNITIES</Nav.Link>
+             </Nav>
+            </Container>
         </Navbar.Collapse>
     </Container>
         </Navbar>
