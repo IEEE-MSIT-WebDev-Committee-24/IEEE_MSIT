@@ -10,7 +10,7 @@ const Newsletters = () => {
     <div className='newsletters'>
     {newslettersData.map((newsletter, index) => (
       <div key={index}>
-        <Newsletter pages={newsletter.pages} index={index} />
+        <Newsletter pages={newsletter.pages} index={index} heading={newsletter.heading}/>
       </div>
     ))}
   </div>
