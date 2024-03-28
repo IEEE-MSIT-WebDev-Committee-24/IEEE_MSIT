@@ -56,7 +56,7 @@ function HeaderComponent() {
                 </Navbar.Brand>
                 <Nav.Link href="/newsletter">NEWSLETTERS</Nav.Link>
                 <Nav.Link href="/execom">EXECUTIVE BOARD</Nav.Link>
-                <Nav.Link href="/oppurtunities">OPPURTUNITIES</Nav.Link>
+                <Nav.Link href="/oppurtunities">OPPORTUNITIES</Nav.Link>
              </Nav>
             </Container>
         </Navbar.Collapse>
