@@ -4,6 +4,7 @@
   height: 650px;
   background-image: url('../../../Assets/eventBack.png');
   color: white;
+  background-attachment: fixed;
 }
 .award{
   display: flex;
