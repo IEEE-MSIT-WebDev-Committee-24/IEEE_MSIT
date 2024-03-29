@@ -9,7 +9,6 @@ import Button from "react-bootstrap/Button";
 function EventsComponent() {
   const responsive = {
     superLargeDesktop: {
-      // the naming can be any, depends on you.
       breakpoint: { max: 4000, min: 3000 },
       items: 5,
     },
@@ -44,7 +43,7 @@ function EventsComponent() {
                 <Card.Img variant="top" src={event.image} />
                 <Card.Body>
                   <Card.Title>
-                    <span>Name:</span>
+                    <span>Name : </span>
                     {event.name}
                   </Card.Title>
                   <Card.Text>Designation: {event.designation}</Card.Text>
