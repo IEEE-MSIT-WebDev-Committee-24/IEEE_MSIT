@@ -9,7 +9,6 @@ import Button from "react-bootstrap/Button";
 function EventsComponent() {
   const responsive = {
     superLargeDesktop: {
-      // the naming can be any, depends on you.
       breakpoint: { max: 4000, min: 3000 },
       items: 5,
     },
@@ -33,6 +32,7 @@ function EventsComponent() {
         {events.map((event) => (
           <div className="eventCarouselImage" key={event.id}>
             <Link
+              className="text-decoration-none text-white"
               to={`/events/${event.id}`}
               state={{
                 desc: event.desc,
@@ -42,13 +42,13 @@ function EventsComponent() {
             >
               <Card className="border-0" style={{ width: "18rem" }}>
                 <Card.Img variant="top" src={event.image} />
-                <Card.Body>
-                  <Card.Title>
-                    <span>Name:</span>
+                <Card.Body className="text-white">
+                  <h2 className="fs-5 font-bold">
+                    <span>Name: </span>
                     {event.name}
-                  </Card.Title>
-                  <Card.Text>Designation: {event.designation}</Card.Text>
-                  <Card.Text>Date: {event.date}</Card.Text>
+                  </h2>
+                  <p>Designation: {event.designation}</p>
+                  <p>Date: {event.date}</p>
 
                   <Button variant="primary">View More</Button>
                 </Card.Body>
