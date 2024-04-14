@@ -146,7 +146,7 @@
 }
 
 img[src="https://i.postimg.cc/jSZQj1y9/Image-4-1.png"] {
-    width: 439px;
+    width: 65rem;
     height: 417px;
 }
 
@@ -166,11 +166,54 @@ img[src="https://i.postimg.cc/nLZDJGsz/3-RAS-1.png"] {
 }
 
 img[src="https://i.postimg.cc/HnfrPwDT/4-WIE-1.png"] {
-    width: 206px;
+    width: 215px;
     height: 139.35px;
 }
 
 @media (max-width: 768px) {
+    .footer_aboutUs {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .footer_aboutUs img {
+        width: 30%;
+        height: auto;
+        margin-bottom: 10px; /* Add some space between images */
+    }
+
+    .body_aboutUsclg img {
+        height: 41vh;
+    }
+    .card-row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between; /* Ensure equal spacing between cards */
+        margin-bottom: 20px; /* Adjust spacing between rows */
+    }
+    
+    .card1 {
+        cursor: pointer;
+        width: calc(33.33% - 16px); /* Calculate width for three cards per row */
+        /* 16px is the total margin between cards (8px margin on both sides) */
+        height: 100px; /* Fixed height */
+        margin-bottom: 8px;
+        background-color: black;
+        border: 2px solid #495057;
+        color: #495057;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 18px;
+        transition: transform 0.5s ease; /* Add transition property for smooth rotation */
+        overflow: hidden; /* Hide overflow content */
+        box-sizing: border-box; /* Ensure padding and border are included in the width */
+        padding: 8px; /* Adjust padding as needed */
+    }
+    
     .about_us {
         padding: 1rem; /* Reduce padding for smaller screens */
     }
@@ -186,7 +229,7 @@ img[src="https://i.postimg.cc/HnfrPwDT/4-WIE-1.png"] {
     }
 
     img[src="https://i.postimg.cc/jSZQj1y9/Image-4-1.png"] {
-        width: 66rem;
+        width: 60rem;
         height: 20rem;
     }
 }

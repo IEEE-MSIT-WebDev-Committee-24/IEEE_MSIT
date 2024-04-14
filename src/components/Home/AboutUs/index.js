@@ -56,7 +56,7 @@ These branches host activities fostering innovation and professional growth, sup
             <h1>IEEE MSIT</h1>
             <br></br>
             <div className="body_aboutUsclg">
-                <img src={aboutIEEEImage} style={{height: '75vh'}} alt="image not found" />
+                <img src={aboutIEEEImage}  alt="image not found" />
             </div>
             <div style={{padding: '1rem', fontSize: '20px',
 lineHeight: '30px',fontWeight: 'bolder',color: 'white'}}>
@@ -73,7 +73,7 @@ lineHeight: '30px',fontWeight: 'bolder',color: 'white'}}>
             <div className='footer_aboutUs'>
               <img src="https://i.postimg.cc/2SWpn4SC/1-CS-1.png" alt="image not found" style={{height: "150px"}}/>
               <img src="https://i.postimg.cc/nLZDJGsz/3-RAS-1.png" alt="image not found" style={{height: "150px"}} />
-              <img src="https://i.postimg.cc/HnfrPwDT/4-WIE-1.png" alt="image not found" />
+              <img src="https://i.postimg.cc/HnfrPwDT/4-WIE-1.png" alt="image not found" style={{height: "150px"}}/>
             </div>
         </div>
     );
