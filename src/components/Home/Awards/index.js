@@ -13,7 +13,7 @@ const AwardList = () => {
         <FaAward fontSize={'50px'}/>
         <div className="paraN">
           <h3>IEEE Region 10 Special Recognition of Student Branch Award:</h3>
-          <p className='short'>Winning the esteemed IEEE Region 10 special award for the year 2023 among 1800 colleges across 23 countries in the asia-pacific region is an invaluable success. It elevated institutions prestige on an international scale.</p>
+          <p className='short'>Winning the esteemed IEEE Region 10 special award for the year 2023 among 1800 colleges across 23 countries in the asia-pacific region is an invaluable success.</p>
         </div>
       </div>
       <div className="cardA">
@@ -27,7 +27,7 @@ const AwardList = () => {
         <MdGroups2 fontSize={'50px'}/>
         <div className="paraN">
           <h3>1st Prize in IEEE Day Photo Contest in STEM Category:</h3>
-          <p className='short threeS'>Our institutions won 1st prize and 500$ in cash in the IEEE Day photo contest in the stem category.The contest held among 160 countries worldwide took institutions recognition to the global scale and was a success beyond boundaries.</p>
+          <p className='short threeS'>Our institutions won 1st prize and 500$ in cash in the IEEE Day photo contest in the stem category.The contest held among 160 countries worldwide took institutions recognition to the global scale.</p>
         </div>
       </div>
       {/* <div className="cardA">
