@@ -171,24 +171,22 @@ img[src="https://i.postimg.cc/HnfrPwDT/4-WIE-1.png"] {
 }
 
 @media (max-width: 768px) {
-    .body_aboutUs {
-        display: flex;
-        flex-wrap: wrap;
+    .about_us {
+        padding: 1rem; /* Reduce padding for smaller screens */
     }
 
-    .footer_aboutUs {
-        display: flex;
-        flex-wrap: wrap;
+    .body_aboutUs p,
+    .body_aboutUsclg p {
+        font-size: 14px; /* Decrease font size for better readability */
+        line-height: 20px; /* Adjust line height for better spacing */
     }
 
     .footer_aboutUs img {
-        width: 50%;
-        box-sizing: border-box;
-
+        height: 100px; /* Adjust image height for better fit */
     }
 
     img[src="https://i.postimg.cc/jSZQj1y9/Image-4-1.png"] {
-        width: 20rem;
+        width: 66rem;
         height: 20rem;
     }
 }

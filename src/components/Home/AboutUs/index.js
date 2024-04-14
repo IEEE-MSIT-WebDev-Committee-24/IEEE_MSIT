@@ -5,16 +5,22 @@ import aboutIEEEImage from '../../../Assets/aboutieee.png';
 function AboutUsComponent() {
     return (
         <div className="about_us" id="about">
-            <div className="header_aboutUs text-dark-emphasis ">
+            <div className="header_aboutUs text-dark-emphasis">
                 <h1>About IEEE</h1>
             </div>
             <div className="body_aboutUs">
-                <img src="https://i.postimg.cc/jSZQj1y9/Image-4-1.png" alt="image not found" />
-                <p className='text-dark-emphasis'>
-IEEE is the world’s largest technical professional organization dedicated to advancing technology for the benefit of humanity. IEEE and its members inspire a global community through its highly cited publications, conferences, technology standards, and professional and educational activities.<br></br> 
-IEEE's roots go back to 1884 when electricity began to become a major influence in society. There was one major established electrical industry, the telegraph, which since the 1840s had come to connect the world with a data communications system faster than the speed of transportation.
-IEEE, pronounced "Eye-triple-E," stands for the Institute of Electrical and Electronics Engineers. The organization is chartered under this name and it is the full legal name.
-                </p>
+                {/* Image Section */}
+                <div className="image_container">
+                    <img  src="https://i.postimg.cc/jSZQj1y9/Image-4-1.png" alt="About IEEE" />
+                </div>
+                {/* Content Section */}
+                <div className="content_container">
+                    <p className='text-dark-emphasis'>
+                        IEEE is the world’s largest technical professional organization dedicated to advancing technology for the benefit of humanity. IEEE and its members inspire a global community through its highly cited publications, conferences, technology standards, and professional and educational activities.<br></br> 
+                        IEEE's roots go back to 1884 when electricity began to become a major influence in society. There was one major established electrical industry, the telegraph, which since the 1840s had come to connect the world with a data communications system faster than the speed of transportation.
+                        IEEE, pronounced "Eye-triple-E," stands for the Institute of Electrical and Electronics Engineers. The organization is chartered under this name and it is the full legal name.
+                    </p>
+                </div>
             </div>
             <h1>Regions of IEEE</h1>
             <div class="card-row"> 
