@@ -124,6 +124,14 @@
 .body_aboutUsclg p {
     padding: 1rem;
     color: white;
+    font-size: 18.2px;
+    line-height: 30px;
+    font-weight: bolder;
+    margin-left: 50px;
+}
+.body_asiaregion{
+    padding: 1rem;
+    color: #495057;
     font-size: 20px;
     line-height: 30px;
     font-weight: bolder;
@@ -132,7 +140,9 @@
 
 .body_aboutUsclg img {
     border-radius: 10%;
-    border: 3px solid #019EC3;
+    border: 5px solid #019EC3;
+    width: 750px;
+    height: 100vh;
 }
 
 img[src="https://i.postimg.cc/jSZQj1y9/Image-4-1.png"] {
