@@ -51,12 +51,14 @@ These branches host activities fostering innovation and professional growth, sup
             <br></br>
             <div className="body_aboutUsclg">
                 <img src={aboutIEEEImage} style={{height: '75vh'}} alt="image not found" />
-                <p className='text-dark-emphasis' style={{ lineHeight:'43px'}}>
+            </div>
+            <div style={{padding: '1rem', fontSize: '20px',
+lineHeight: '30px',fontWeight: 'bolder',color: 'white'}}>
+            <p className='text-dark-emphasis' style={{ lineHeight:'35px'}}>
                 <b style={{color:"#019EC3" }}>Maharaja Surajmal Institute of Technology (MSIT) </b> located in New Delhi, is an active participant in the IEEE Delhi Section. As one of the prominent educational institutions under this section, MSIT houses a vibrant IEEE Student Branch that plays a critical role in enhancing the technical and professional development of its students.
 
                 </p>
-            </div>
-            <div className="body_aboutUsclg">
+
     <p className='text-dark-emphasis' style={{lineHeight:'35px'}}>The IEEE MSIT Branch of Delhi region organizes various technical workshops, seminars, and guest lectures throughout the academic year. These activities are designed to provide students with exposure to the latest technological advancements and industry practices. By participating in these events, students not only gain knowledge but also develop essential skills such as teamwork and leadership. Through collaborative efforts and various initiatives, IEEE Delhi Section fosters innovation and academic excellence, providing platforms for knowledge exchange and skill development across its member institutions. As part of the IEEE community in Delhi, MSIT students engage in collaborative projects, research endeavors, and industry interactions,
                 contributing to the advancement of technology and engineering in the region.
 </p>
