@@ -42,7 +42,7 @@ The Asia Region of IEEE encompasses a diverse landscape of technological innovat
             <h1>India Council and Delhi Section</h1>
             <br></br>
             <div className="body_aboutUsclg">
-                <p className='text-dark-emphasis'>
+                <h4 className='text-dark-emphasis'>
                 The IEEE India Council is a central hub for managing and promoting IEEE's activities across India, enhancing collaboration among professionals in technology and engineering. It acts as the coordinating body among various IEEE sections and chapters, playing a critical role in hosting numerous major events including technical conferences, workshops, and seminars that are crucial for the professional development and networking of members. The council emphasizes educational outreach and student engagement, supporting Student Branches at many universities and colleges to foster technical activities, competitions, and publications that contribute to both academic and professional growth.
 
                 <span style={{ color: "#019EC3" }}>
@@ -51,14 +51,14 @@ The Asia Region of IEEE encompasses a diverse landscape of technological innovat
 , part of IEEE India Council and Asia-Pacific Region 10, was formed on May 13, 1976. With 3,680 members, it promotes tech education and research through 100+ Student Branches in institutions like Delhi Technological University, IIT Delhi.
 
 These branches host activities fostering innovation and professional growth, supported by over 100 branches in institutions such as DTU, IIT Delhi, NSIT, MAIT, and others. They nurture a strong tech community, offering leadership experience and global competition participation.
-                </p>
+                </h4>
             </div>
             <h1>IEEE MSIT</h1>
             <br></br>
             <div className="body_aboutUsclg">
                 <img src={aboutIEEEImage}  alt="image not found" />
             </div>
-            <div style={{padding: '1rem', fontSize: '20px',
+            <div style={{padding: '1rem', fontSize: '18px',
 lineHeight: '30px',fontWeight: 'bolder',color: 'white'}}>
             <p className='text-dark-emphasis' style={{ lineHeight:'35px'}}>
                 <b style={{color:"#019EC3" }}>Maharaja Surajmal Institute of Technology (MSIT) </b> located in New Delhi, is an active participant in the IEEE Delhi Section. As one of the prominent educational institutions under this section, MSIT houses a vibrant IEEE Student Branch that plays a critical role in enhancing the technical and professional development of its students.
