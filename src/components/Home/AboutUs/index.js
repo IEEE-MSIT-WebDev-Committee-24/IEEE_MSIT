@@ -36,7 +36,7 @@ function AboutUsComponent() {
                 <div class="card10" style= {{padding: "20px" , fontWeight: "bold",fontSize:'14px'}}>Asia and Pacific</div>
             </div>
             <h1>Asia and Pacific</h1>
-            <h4 className='body_asiaregion'>
+            <h4 className='body_aboutUsclg text-dark-emphasis'>
 The Asia Region of IEEE encompasses a diverse landscape of technological innovation and collaboration, serving as a hub for knowledge exchange and professional growth. Within this region, the Indian subcontinent stands out for its significant contributions to technology and innovation, hosting a vibrant engineering community engaged in cutting-edge research and development. Within India, the IEEE Delhi Section plays a crucial role in fostering collaboration and excellence, organizing various technical events and initiatives to drive innovation and societal impact in Delhi and its surrounding areas</h4>
             <br></br>
             <h1>India Council and Delhi Section</h1>

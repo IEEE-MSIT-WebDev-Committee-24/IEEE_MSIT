@@ -220,8 +220,8 @@ img[src="https://i.postimg.cc/HnfrPwDT/4-WIE-1.png"] {
 
     .body_aboutUs p,
     .body_aboutUsclg p {
-        font-size: 14px; /* Decrease font size for better readability */
-        line-height: 20px; /* Adjust line height for better spacing */
+        font-size: 11px; /* Decrease font size for better readability */
+        line-height: 15px; /* Adjust line height for better spacing */
     }
 
     .footer_aboutUs img {
