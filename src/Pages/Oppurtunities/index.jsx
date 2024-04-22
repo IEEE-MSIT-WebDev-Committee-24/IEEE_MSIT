@@ -66,7 +66,7 @@ const Opportunities = () => {
               </radialGradient>
             </defs>
             <p className="card-title">3.The Darrel Chong Student Activity Award</p>
-            <p className="card-description">The purpose of this recognition system serves to change the mindset of our student groups, from being number-driven to becoming value-driven and to acknowledge exemplary student activities around the world. The goal is to improve the quality of activities and to foster knowledge sharing among students.</p>
+            <p className="card-description">The purpose of this recognition system serves to change the mindset of our student groups, from being number-driven to becoming value-driven and to acknowledge exemplary student activities around the world. .</p>
           </div>
         </div>
 
@@ -84,7 +84,7 @@ const Opportunities = () => {
               </radialGradient>
             </defs>
             <p className="card-title">4.IEEE Outstanding Branch Counselor and Branch Chapter Advisor Award</p>
-            <p className="card-description">Aware of the unusual and dedicated efforts of Student Branch Counselors and Branch Chapter Advisors, the Regional and Technical Activities Boards sponsor a cash award to each of the approximately 20 outstanding Counselors and Advisors around the world.</p>
+            <p className="card-description">Aware of the unusual and dedicated efforts of Student Branch Counselors and Branch Chapter Advisors, the Regional and Technical .</p>
           </div>
         </div>
       </div>

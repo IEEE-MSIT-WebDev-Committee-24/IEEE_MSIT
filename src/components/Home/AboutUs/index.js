@@ -11,12 +11,12 @@ function AboutUsComponent() {
             <div className="body_aboutUs">
                 {/* Image Section */}
                 <div className="image_container">
-                    <img  src="https://i.postimg.cc/jSZQj1y9/Image-4-1.png" alt="About IEEE" />
+                    <img src="https://i.postimg.cc/jSZQj1y9/Image-4-1.png" alt="About IEEE" />
                 </div>
                 {/* Content Section */}
                 <div className="content_container">
-                    <p className='text-dark-emphasis'>
-                        IEEE is the world’s largest technical professional organization dedicated to advancing technology for the benefit of humanity. IEEE and its members inspire a global community through its highly cited publications, conferences, technology standards, and professional and educational activities.<br></br> 
+                    <p className= 'text-dark-emphasis'>
+                        IEEE is the world’s largest technical professional organization dedicated to advancing technology for the benefit of humanity. IEEE and its members inspire a global community through its highly cited publications, conferences, technology standards, and professional and educational activities.<br></br>
                         IEEE's roots go back to 1884 when electricity began to become a major influence in society. There was one major established electrical industry, the telegraph, which since the 1840s had come to connect the world with a data communications system faster than the speed of transportation.
                         IEEE, pronounced "Eye-triple-E," stands for the Institute of Electrical and Electronics Engineers. The organization is chartered under this name and it is the full legal name.
                     </p>
@@ -74,6 +74,8 @@ lineHeight: '30px',fontWeight: 'bolder',color: 'white'}}>
               <img src="https://i.postimg.cc/2SWpn4SC/1-CS-1.png" alt="image not found" style={{height: "150px"}}/>
               <img src="https://i.postimg.cc/nLZDJGsz/3-RAS-1.png" alt="image not found" style={{height: "150px"}} />
               <img src="https://i.postimg.cc/HnfrPwDT/4-WIE-1.png" alt="image not found" style={{height: "150px"}}/>
+              <img src="https://i.postimg.cc/vZYLzFy4/2-PES-1.png" alt="image not found" style={{height: "150px"}}/>
+
             </div>
         </div>
     );

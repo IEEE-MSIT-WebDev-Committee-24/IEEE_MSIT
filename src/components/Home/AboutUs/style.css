@@ -146,7 +146,7 @@
 }
 
 img[src="https://i.postimg.cc/jSZQj1y9/Image-4-1.png"] {
-    width: 65rem;
+    width: 82rem;
     height: 417px;
 }
 
@@ -213,7 +213,25 @@ img[src="https://i.postimg.cc/HnfrPwDT/4-WIE-1.png"] {
         box-sizing: border-box; /* Ensure padding and border are included in the width */
         padding: 8px; /* Adjust padding as needed */
     }
-    
+    /* Add these styles to your existing style.css file */
+@media only screen and (max-width: 768px) {
+    .body_aboutUs {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .image_container {
+        order: 2; /* Moves the image below on smaller screens */
+        margin-bottom: 20px; /* Adds some space between image and content */
+    }
+
+    .content_container {
+        width: 100%;
+        text-align: justify;
+    }
+}
+
     .about_us {
         padding: 1rem; /* Reduce padding for smaller screens */
     }
@@ -221,7 +239,7 @@ img[src="https://i.postimg.cc/HnfrPwDT/4-WIE-1.png"] {
     .body_aboutUs p,
     .body_aboutUsclg p {
         font-size: 11px; /* Decrease font size for better readability */
-        line-height: 15px; /* Adjust line height for better spacing */
+        line-height: 21px; /* Adjust line height for better spacing */
     }
 
     .footer_aboutUs img {
@@ -229,7 +247,7 @@ img[src="https://i.postimg.cc/HnfrPwDT/4-WIE-1.png"] {
     }
 
     img[src="https://i.postimg.cc/jSZQj1y9/Image-4-1.png"] {
-        width: 60rem;
-        height: 20rem;
+        width: 18rem;
+        height: 15rem;
     }
 }

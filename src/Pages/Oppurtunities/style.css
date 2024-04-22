@@ -1,34 +1,18 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
-  background-color: black;
-  background: linear-gradient(109.6deg, rgba(0, 0, 0, 0.93) 11.2%, rgb(63, 61, 61) 78.9%);
-  /* background: linear-gradient(179.4deg, rgb(12, 20, 69) -16.9%, rgb(71, 30, 84) 119.9%); */
+  background-color: #182b3a;
+  background-image: linear-gradient(90deg, #112331 0%, #268bc1 50%, #0d2231 100%);
 }
 
 .container {
-  width: 1200px !important;
-  padding: 0 !important;
-  margin-right: auto;
-  margin-left: auto;
-
-  @media screen and (min-width: 992px) and (max-width: 1439px) {
-    max-width: 1279px !important;
-    padding: 0 !important;
-    margin: 0 80px !important;
-    width: auto !important;
-  }
-
-  @media screen and (max-width: 991px) {
-    max-width: 959px !important;
-    margin: 0 16px !important;
-    padding: 0 !important;
-    width: auto !important;
-  }
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
 .gradient-cards {
@@ -36,20 +20,29 @@ body {
   grid-template-columns: repeat(2, 1fr);
   gap: 32px;
   padding: 30px;
-  @media screen and (max-width: 991px) {
-    grid-template-columns: 1fr;
+}
+
+/* Adjustments for smaller screens */
+@media screen and (max-width: 991px) {
+  .container {
+    max-width: calc(100% - 32px); /* Adjust for padding */
+    margin: 0 16px; /* Adjust margin for smaller screens */
+  }
+  .gradient-cards {
+    grid-template-columns: 1fr; /* Single column layout for smaller screens */
+    padding: 20px; /* Reduce padding */
+    gap: 20px; /* Reduce gap between cards */
   }
 }
 
 .container-title {
   text-align: center;
-  padding: 0 !important;
   margin-bottom: 40px;
   font-size: 40px;
   color: #fff;
   font-weight: 600;
   line-height: 60px;
-  background: -webkit-linear-gradient(#2193b0, #6dd5ed);
+  background: -webkit-linear-gradient(#2193b0, white);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: sans-serif;
@@ -57,11 +50,8 @@ body {
 
 .card {
   max-width: 550px;
-  border: 0;
   width: 100%;
   margin-inline: auto;
-  z-index: -5;
-  background-color: var(--transparent) !important;
 }
 
 .container-card {
@@ -70,18 +60,14 @@ body {
   background: linear-gradient(71deg, #080509, #1a171c, #080509);
   background-clip: padding-box;
   border-radius: 45px;
-  /* z-index: 3000; */
   padding: 40px;
-  img {
-    margin-bottom: 32px;
-  }
 }
 
-.bg-green-box,
-.bg-white-box,
-.bg-yellow-box,
-.bg-blue-box {
-  position: relative;
+/* Adjustments for smaller screens */
+@media screen and (max-width: 767px) {
+  .container-card {
+    padding: 30px; /* Reduce padding for smaller screens */
+  }
 }
 
 .bg-green-box::after,
@@ -98,25 +84,19 @@ body {
   border-radius: 45px;
 }
 
-.bg-green-box::after {
-  background: linear-gradient(71deg, #0d1212, #3da077, #0d1212);
-}
-
-.bg-white-box::after {
-  background: linear-gradient(71deg, #121013, #b0afb0, #121013);
-}
-
-.bg-yellow-box::after {
-  background: linear-gradient(71deg, #110e0e, #afa220, #110e0e);
-}
-
-.bg-blue-box::after {
-  background: linear-gradient(71deg, #0c0a0e, #5f6fad, #0c0a0e);
+/* Adjustments for smaller screens */
+@media screen and (max-width: 767px) {
+  .bg-green-box::after,
+  .bg-white-box::after,
+  .bg-yellow-box::after,
+  .bg-blue-box::after {
+    border-radius: 25px; /* Reduce border-radius for smaller screens */
+  }
 }
 
 .card-title {
   font-weight: 600;
-  color: white !important;
+  color: white;
   letter-spacing: -0.02em;
   line-height: 40px;
   font-style: normal;
