@@ -35,6 +35,7 @@ body {
   }
 }
 
+
 .container-title {
   text-align: center;
   margin-bottom: 40px;
@@ -60,13 +61,15 @@ body {
   background: linear-gradient(71deg, #080509, #1a171c, #080509);
   background-clip: padding-box;
   border-radius: 45px;
-  padding: 40px;
+  padding: 28px;
+  margin-bottom: 20px; /* Add margin between cards */
 }
 
 /* Adjustments for smaller screens */
 @media screen and (max-width: 767px) {
   .container-card {
-    padding: 30px; /* Reduce padding for smaller screens */
+    padding: 7px; /* Reduce padding for smaller screens */
+    margin-bottom: 15px; /* Reduce margin between cards */
   }
 }
 
@@ -108,8 +111,9 @@ body {
   font-weight: 600;
   line-height: 32px;
   color: hsla(0, 0%, 100%, 0.5);
-  font-size: 16px;
+  font-size: 13px;
   max-width: 470px;
+  padding-left:  12px;
 }
 
 .cont {
@@ -118,4 +122,75 @@ body {
   font-family: monospace;
   font-weight: 500;
   font-size: 16px;
+}
+/* Add these styles for new card backgrounds */
+
+.bg-green-box {
+  background-color: #2FCB89; /* Green background */
+}
+
+.bg-orange-box {
+  background-color: #FFA500; /* Orange background */
+}
+
+.bg-blue-box {
+  background-color: #61A0FF; /* Blue background */
+}
+
+.bg-purple-box {
+  background-color: #9370DB; /* Purple background */
+}
+
+/* Adjustments for card styles */
+.card {
+  max-width: 550px;
+  width: 100%;
+  margin: 0 auto 20px; /* Add margin bottom for spacing between cards */
+}
+
+.container-card {
+  position: relative;
+  border: 2px solid transparent;
+  border-radius: 15px; /* Adjust border radius */
+  padding: 20px; /* Adjust padding */
+}
+
+.card-title {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 10px;
+  text-align:center
+}
+
+.card-description {
+  font-size: 13px;
+  color: #666;
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .cont {
+      flex-wrap: wrap;
+      flex-direction: column;
+      width: 104%;
+      padding-left: 0;
+  }
+}
+@media screen and (max-width: 767px) {
+  .container-title {
+    font-size: 24px;
+  }
+
+  .subheading {
+    font-size: 16px;
+  }
+  .card-description {
+    font-size: 11px; /* Decrease font size for mobile */
+  }
+
+  .card {
+    width: 113%;
+    margin-bottom: 15px;
+    font-size: 11px;
+  }
 }
