@@ -51,14 +51,24 @@ const data = [
     date: "27 March 2023",
   },
   {
-    id: 3,
-    name: "Mohammad Fraz",
-    coverImage: coverImage.filter((img) => img.includes("Fraz")),
-    image: image.filter((img) => img.includes("Fraz")),
+    id: 4,
+    name: "Sanidhya Tiwari",
+    coverImage: coverImage.filter((img) => img.includes("Sanidhya")),
+    image: image.filter((img) => img.includes("Sanidhya")),
     desc: "IEEE MSIT hosted an event on April 19 with Mohammad Fraz, founder of Lead Coding and software developer at Google, as the speaker. The purpose of the event was to teach attendees how to become great engineers, learn software development, and use online resources like YouTube and Leetcode to enhance their abilities.",
     designation: "SDE2 at Google || Founder Lead Code",
     date: "27 March 2023",
   },
+  {
+    id: 5,
+    name: "Mukul Kumar",
+    coverImage: coverImage.filter((img) => img.includes("Mukul")),
+    image: image.filter((img) => img.includes("Mukul")),
+    desc: "IEEE MSIT hosted an event on April 19 with Mohammad Fraz, founder of Lead Coding and software developer at Google, as the speaker. The purpose of the event was to teach attendees how to become great engineers, learn software development, and use online resources like YouTube and Leetcode to enhance their abilities.",
+    designation: "SDE2 at Google || Founder Lead Code",
+    date: "27 March 2023",
+  }
+
 ];
 
 export default data;

@@ -1,6 +1,5 @@
 import AboutUs from "../../components/Home/AboutUs";
 
-
 const AboutPage = () => {
     return (
         <>

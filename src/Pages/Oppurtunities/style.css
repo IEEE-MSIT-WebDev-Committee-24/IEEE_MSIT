@@ -43,7 +43,7 @@ body {
   color: #fff;
   font-weight: 600;
   line-height: 60px;
-  background: -webkit-linear-gradient(#2193b0, white);
+  background: linear-gradient( black, #0c4370);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: sans-serif;
