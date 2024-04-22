@@ -4,7 +4,9 @@
   height: 530px;
   background-image: url('../../../Assets/eventBack.png');
   color: white;
+  
 }
+
 .mainAward h1{
   margin-left: 72px;
 }

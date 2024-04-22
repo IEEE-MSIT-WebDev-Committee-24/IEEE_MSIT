@@ -6,7 +6,7 @@ import { MdGroups2 } from "react-icons/md";
 // import { FaBookReader } from "react-icons/fa";
 const AwardList = () => {
   return (
-    <div className='mainAward'>
+    <div className='mainAward home'>
     <h1>Achievements</h1>
     <div className='award'>
       <div className="cardA">
