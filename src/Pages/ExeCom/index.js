@@ -164,7 +164,7 @@ const ExeCom = () => {
             <div className="app__execom-mainContainer">
                 <div className="app__execom-headerContainer">
                 <h1 className="font-extrabold text-white bg-slate-800 rounded-lg text-center p-5">
-      Meet the Execom 2023
+      Meet the Execom 2024
     </h1>
                     <div className="hr-header"></div> 
                 </div>
