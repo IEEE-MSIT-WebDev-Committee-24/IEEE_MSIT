@@ -3,12 +3,14 @@
     margin: 0;
     box-sizing: border-box;
 } */
+
 .eventsList {
+
   background-attachment: fixed;
   background-image: url(../../../Assets/eventBack.png);
   background-repeat: no-repeat;
+  /* background-position: center; */
   background-size: cover;
-  padding-bottom: 2rem;
 }
 
 .eventsList h1 {
@@ -18,38 +20,5 @@
 }
 
 .eventCarouselImage {
-  height: 100%;
-  display: flex;
-  align-items: stretch;
-}
-
-.card {
-  height: auto;
-  display: flex;
-  flex-direction: column;
-  max-width: 24rem;
-}
-
-.card-img-top {
-  max-width: 100%;
-  height: auto;
-}
-
-.card-body {
-  flex-grow: 0;
-  padding: 1rem;
-}
-.eventsList {
-
-    background-attachment: fixed;
-    background-image: url(../../../Assets/eventBack.png);
-    background-repeat: no-repeat;
-    /* background-position: center; */
-    background-size: cover;
-}
-
-.eventsList h1 {
-    color: white;
-    padding-left: 3%;
-    padding-bottom: 5%;
+  height: 30rem;
 }
