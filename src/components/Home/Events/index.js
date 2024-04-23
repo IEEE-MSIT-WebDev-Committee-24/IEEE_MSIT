@@ -29,9 +29,16 @@ function EventsComponent() {
                 image: event.image,
               }}
             >
-              <Card className="custom-card">
-                <Card.Img variant="top" src={event.image} />
-                <Card.Body>
+              <Card
+                className="border-0 bg-transparent"
+                style={{ width: "18rem" }}
+              >
+                <Card.Img
+                  style={{ height: "15rem", width: "18rem" }}
+                  variant="top"
+                  src={event.image}
+                />
+                <Card.Body className="text-white">
                   <h2 className="fs-5 font-bold">
                     <span>Name: </span>
                     {event.name}
@@ -45,6 +52,7 @@ function EventsComponent() {
           </div>
         ))}
       </Carousel>
+      ;
     </div>
   );
 }
