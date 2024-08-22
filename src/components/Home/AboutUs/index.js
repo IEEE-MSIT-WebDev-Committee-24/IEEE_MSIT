@@ -1,7 +1,11 @@
 import React from 'react';
 import './style.css';
 import aboutIEEEImage from '../../../Assets/aboutieee.png';
-
+import compImage from '../../../Assets/Image4.png';
+import CASImage from '../../../Assets/CAS.png';
+import RASImage from '../../../Assets/RAS.png';
+import PESImage from '../../../Assets/PES.png';
+import WIEImage from '../../../Assets/WIE.png';
 function AboutUsComponent() {
     return (
         <div className="about_us" id="about">
@@ -11,7 +15,7 @@ function AboutUsComponent() {
             <div className="body_aboutUs">
                 {/* Image Section */}
                 <div className="image_container">
-                    <img src="https://i.postimg.cc/jSZQj1y9/Image-4-1.png" alt="About IEEE" />
+                    <img src={compImage} alt="About IEEE" />
                 </div>
                 {/* Content Section */}
                 <div className="content_container">
@@ -71,11 +75,10 @@ lineHeight: '30px',fontWeight: 'bolder',color: 'white'}}>
 </div>
 
             <div className='footer_aboutUs'>
-              <img src="https://i.postimg.cc/2SWpn4SC/1-CS-1.png" alt="image not found" style={{height: "150px"}}/>
-              <img src="https://i.postimg.cc/nLZDJGsz/3-RAS-1.png" alt="image not found" style={{height: "150px"}} />
-              <img src="https://i.postimg.cc/HnfrPwDT/4-WIE-1.png" alt="image not found" style={{height: "150px"}}/>
-              <img src="https://i.postimg.cc/vZYLzFy4/2-PES-1.png" alt="image not found" style={{height: "150px"}}/>
-
+            <img src={CASImage} alt="CAS" style={{height: "150px"}}/>
+            <img src={RASImage} alt="RAS" style={{height: "150px"}}/>
+            <img src={PESImage} alt="PES" style={{height: "150px"}}/>
+            <img src={WIEImage} alt="WIE" style={{height: "150px"}}/>
             </div>
         </div>
     );
